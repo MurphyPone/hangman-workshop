@@ -33,16 +33,18 @@ if difficulty == "hard":
         if len(word) >= 7:
             filtered_words.append(word)
 
-print(filtered_words)
+# print(filtered_words)
 
 # 2.2 select a word from the filtered words list
 
 secret_word = random.choice(filtered_words)
-print(secret_word)
+#print(secret_word)
 
 # print(secret_word)
 guesses = ''
 
+
+# game loop
 while turns > 0:
      
     # counts the number of times a user fails
